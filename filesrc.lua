@@ -2564,13 +2564,13 @@ OrionLib:MakeNotification({
 local W = Window:MakeTab({
     Name = "Thông Tin Hub🐧ℹ️",
     Icon = "rbxassetid://8192162908",
-    PremiumOnly = false
+    PremiumOnly = true
 })
 
 local M = Window:MakeTab({
     Name = "FARM",
     Icon = "rbxassetid://8192162908",
-    PremiumOnly = true
+    PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
