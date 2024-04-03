@@ -2541,22 +2541,22 @@ spawn(function()
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "baowezz", HidePremium = false, IntroText = "baowez⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
+local Window = OrionLib:MakeWindow({Name = "baowez(beta)", HidePremium = false, IntroText = "baowez v1⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
 
 
 
 OrionLib:MakeNotification({
     Name = "chỉ có vậy 🙃",
-    Content = "Please Wait loading hơi lâu 🙃",
+    Content = "Please Wait loading hơi lâu 20s",
     Image = "rbxassetid://8192162908",
-    Time = 5
+    Time = 25
 })
 wait(3)
 OrionLib:MakeNotification({
     Name = "baowez",
     Content = "theo dõi cho tui đê by:đạt vũ",
     Image = "rbxassetid://8192162908",
-    Time = 5
+    Time = 1
 })
 
 -------------Tab-----------------------
@@ -2564,11 +2564,11 @@ OrionLib:MakeNotification({
 local W = Window:MakeTab({
     Name = "Thông Tin Hub🐧ℹ️",
     Icon = "rbxassetid://8192162908",
-    PremiumOnly = true
+    PremiumOnly = false
 })
 
 local M = Window:MakeTab({
-    Name = "FARM",
+    Name = "®MAIN FARM",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
@@ -2651,16 +2651,16 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("tên cần đổi")
+W:AddLabel("by: đạt vũ 🤧")
 
 local Section = W:AddSection({
     Name = "Update"
 })
 
 
-W:AddLabel("PHÁT TRIỂN BỞI")
-W:AddLabel("tên cần đổi SCRIPT")
-W:AddLabel("Discordtên cần đổi")
+W:AddLabel("PHÁT TRIỂN BỞI:baowez")
+W:AddLabel("SCRIPT baowez")
+W:AddLabel("Discord có cái nịt 😶")
 local Section = W:AddSection({
     Name = "Status"
 })
@@ -6303,7 +6303,7 @@ SH:AddButton({
 })
 
 local Section = SH:AddSection({
-    Name = "Gun"
+    Name = ""
 })
 
 SH:AddButton({
@@ -6701,7 +6701,7 @@ spawn(function()
                                             PosMon = v.HumanoidRootPart.CFrame
                                             TP1(v.HumanoidRootPart.CFrame * Pos)
                                             v.HumanoidRootPart.CanCollide = false
-                                            v.Humanoid.WalkSpeed = 0
+                                            v.Humanoid.WalkSpeed = 100
                                             v.Head.CanCollide = false
                                             v.HumanoidRootPart.Size = Vector3.new(100,100,100)
                                             StartMagnet = true
@@ -10509,7 +10509,7 @@ local TushitaPos = CFrame.new(-10238.875976563, 389.7912902832, -9549.7939453125
                                         AutoHaki()
                                         EquipWeapon(_G.SelectWeapon)
                                         v.HumanoidRootPart.CanCollide = false
-                                        v.Humanoid.WalkSpeed = 0
+                                        v.Humanoid.WalkSpeed = 100
                                         v.Head.CanCollide = false 
                                         StartMagnetBoneMon2 = true
                                         PosMonBone = v.HumanoidRootPart.CFrame
@@ -11332,7 +11332,7 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "tên cần đổi",
+                    Name = "fruit 5",
                     Content = "Turn Off Hop Find Moon Please",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11340,7 +11340,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "tên cần đổi",
+                    Name = "fruit 4",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11348,7 +11348,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "tên cần đổi",
+                    Name = "fruit 3",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11356,7 +11356,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "tên cần đổi",
+                    Name = "fruit 2",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11369,7 +11369,7 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "tên cần đổi",
+        Name = "fruit1",
         Content = "Loading script complete!, You can now enable the function!",
         Image = "rbxassetid://8192162908",
         Time = 5
@@ -11402,7 +11402,7 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "tên cần đổi",
+    Name = "fruit",
     Content = "Loading Config Complete!!",
     Image = "rbxassetid://8192162908",
     Time = 5
